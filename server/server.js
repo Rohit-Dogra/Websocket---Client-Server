@@ -10,8 +10,8 @@ const socketIo = require("socket.io");
 // MySQL Connection
 const mysqlConnection = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "rohitdogra@23",
+  user: "username",
+  password: "yourpassword",
   database: "system_monitoring",
 });
 
